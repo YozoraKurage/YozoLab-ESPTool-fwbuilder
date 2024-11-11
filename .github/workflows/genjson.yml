@@ -24,7 +24,7 @@ jobs:
           import json
           import glob
           
-          base_url = "https://github.io/${{ github.repository }}/blob/main"
+          base_url = "https://github.com/${{ github.repository }}/blob/main"
           config = {}
           
           # firmwareフォルダ以下のフォルダを検索
