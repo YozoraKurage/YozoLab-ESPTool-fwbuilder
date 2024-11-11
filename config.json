@@ -1,1 +1,50 @@
-{}
+{
+  "dynamic-sfusion_V0.5.0": {
+    "files": [
+      {
+        "name": "firmware.bin",
+        "offset": "0x10000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/dynamic-sfusion_V0.5.0/firmware.bin"
+      },
+      {
+        "name": "boot_app0.bin",
+        "offset": "0xe000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/dynamic-sfusion_V0.5.0/boot_app0.bin"
+      },
+      {
+        "name": "partitions.bin",
+        "offset": "0x8000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/dynamic-sfusion_V0.5.0/partitions.bin"
+      },
+      {
+        "name": "bootloader.bin",
+        "offset": "0x0000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/dynamic-sfusion_V0.5.0/bootloader.bin"
+      }
+    ]
+  },
+  "sfusion-tuned-mbe_V0.5.0": {
+    "files": [
+      {
+        "name": "firmware.bin",
+        "offset": "0x10000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/sfusion-tuned-mbe_V0.5.0/firmware.bin"
+      },
+      {
+        "name": "boot_app0.bin",
+        "offset": "0xe000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/sfusion-tuned-mbe_V0.5.0/boot_app0.bin"
+      },
+      {
+        "name": "partitions.bin",
+        "offset": "0x8000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/sfusion-tuned-mbe_V0.5.0/partitions.bin"
+      },
+      {
+        "name": "bootloader.bin",
+        "offset": "0x0000",
+        "path": "https://github.io/YozoraKurage/YozoLab-ESPTool-fwbuilder/blob/main/sfusion-tuned-mbe_V0.5.0/bootloader.bin"
+      }
+    ]
+  }
+}
