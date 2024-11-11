@@ -24,7 +24,7 @@ jobs:
           import json
           import glob
           
-          base_url = "https://github.com/${{ github.repository }}/blob/main"
+          base_url = "https://github.com/${{ github.repository }}/blob/main/firmware"
           config = {}
           
           # firmwareフォルダ以下のフォルダを検索
@@ -51,6 +51,10 @@ jobs:
                       'offset': offset_map.get(file_name, '0x10000'),
                       'path': f'{base_url}/{folder_name}/{file_name}'
                   })
+              
+              # 指定された順序でソート
+              order = ['bootloader.bin', 'partitions.bin', 'boot_app0.bin', 'firmware.bin']
+              bin_files.sort(key=lambda x: order.index(x['name']) if x['name'] in order else len(order))
               
               if bin_files:
                   config[folder_name] = {'files': bin_files}
